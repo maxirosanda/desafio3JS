@@ -1,0 +1,24 @@
+body{
+  padding: 30px;
+}
+.form{
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.form > div >input {
+  width: 100px;
+}
+#list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 30px;
+}
