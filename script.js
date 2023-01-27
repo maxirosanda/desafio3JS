@@ -7,7 +7,7 @@ let productView = (product) =>{
                         <form id="update-${product.id}" class="form">
                           <input type="hidden" name="id" value="${product.id}">
                           <input type="text" name="name" value="${product.name}" required>
-                          <textarea name="desc" value="${product.desc}" required></textarea>
+                          <textarea name="desc"  required>${product.desc}</textarea>
                           <div>
                             <input type="number" name="price" value=${product.price} required>
                             <input type="number" name="stock" value=${product.stock} min="1" max="100" required>
